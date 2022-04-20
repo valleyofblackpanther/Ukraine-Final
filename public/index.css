@@ -1,0 +1,22 @@
+.hey {
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 8%;
+}
+
+/*html, body {
+    background: linear-gradient(34deg, #0057b7, #ffd700)
+}*/
+body {
+    background:            linear-gradient(90deg, #0057b7, #ffd700);
+    background-attachment: fixed; /*edit*/
+
+}
+
+input[type="text"] {
+
+    background-color : #fffdfd; 
+    border: 0px;
+    background: #fdfdfd;
+  
+  }

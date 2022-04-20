@@ -1,0 +1,42 @@
+.post{
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+    background-color: #eee;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: left;
+    justify-content: flex-start;
+    font-size: 20px;
+    overflow-y: scroll;
+    max-height: 130px;
+    border-radius: 9px;
+    font-family: 'Red Hat Mono', monospace;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+/*  .toast{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+  }*/
+
